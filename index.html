@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: red;
+            font-size: 30px;
+            font-weight: bold;
+            animation: shine 2s infinite, move 5s infinite;
+            text-align: center;
+            text-shadow: 0 0 1px red, 0 0 2px red, 0 0 4px red, 0 0 8px red, 0 0 16px red;
+        }
+        p {
+            color: black;
+            font-size: 20px;
+        }
+        h2 {
+            color: green;
+            font-size: 25px;
+        }
+        img {
+            border: 5px solid black;
+            border-radius: 20%;
+        }
+        div {
+            background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><text x="10" y="20" font-size="20" fill="rgba(0, 0, 0, 0.1)">Safal\'s Website</text></svg>'), lightblue;
+            background-repeat: repeat;
+            border: 8px solid pink;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        @keyframes shine {
+            0% {
+                text-shadow: 0 0 2px red, 0 0 4px red, 0 0 8px red, 0 0 16px red, 0 0 32px red, 0 0 36px red, 0 0 40px red, 0 0 60px red;
+                transform: scale(1);
+            }
+            50% {
+                text-shadow: 0 0 2px red, 0 0 4px red, 0 0 8px red, 0 0 16px red, 0 0 32px red, 0 0 36px red, 0 0 40px red, 0 0 60px red;
+                transform: scale(1.2);
+            }
+            100% {
+                text-shadow: 0 0 2px red, 0 0 4px red, 0 0 8px red, 0 0 16px red, 0 0 32px red, 0 0 36px red, 0 0 40px red, 0 0 60px red;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes move {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(100px); }
+            100% { transform: translateX(0); }
+        }
+
+        h2::before {
+            content: "• ";
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Namaste and Welcome to My Website</h1>
+        <p>This is my first website and I am very excited to learn more about web development. I am applying to study BSc. Computer Science specializing in Software study and I am very passionate about learning new things.</p>
+        <img src="c:\Users\LEGION\Downloads\IMG_1356.jpeg" alt="My Picture" width="200" height="200">
+        <h2>About Me</h2>
+        <p>I am from a science biology background and couldn't take computer science in high school due to the misconception that taking biology was superior and would allow me to easily swap into the engineering field in my bachelor's studies. I have been trapped in that misconception and now realize the importance of computer science. I want to overcome my mistake and am determined to pursue my passion for computer science and software development.</p>
+        <p>I have planned to study my bachelor's course in computer science specializing in software engineering and have decided to study in the US to learn more in-depth about current advanced technology. I believe that if I study here, I can be a good software engineer, but if I study in the US, I will be the best software engineer. My main motive is to transform Nepal's software infrastructure and be recognized as a renowned Nepali software engineer. I aim to open my own tech empire in the future by leveraging the advanced knowledge I will acquire in the US.</p>
+        <h2>Purpose of This website</h2>
+        <p>I have just received the Legion 5 16IRX9 as a gift from my brother and sister on March 5. I feel incredibly lucky and blessed to have such wonderful siblings. I want to express my heartfelt gratitude to my brother and my sister for this amazing gift. Their support and love mean the world to me, and this gift will help me in my journey to become a successful software engineer.</p>
+        <p>I also want to thank my parents for their unwavering support in every step I decide to take. Their encouragement and belief in me have been a constant source of strength and motivation. I am truly grateful for their love and guidance.</p>
+    </div>
+</body>
+</html>
+
+   
