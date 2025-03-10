@@ -1,4 +1,21 @@
 body {
+     background-color: black; /* Sets the background to black */
+    color: white; /* Changes all default text color to white */
+}
+
+p {
+    color: white; /* Ensures all paragraphs are white */
+}
+
+h1, h2 {
+    color: red; /* Keeps headings their original colors */
+}
+
+img {
+    border: 5px solid white; /* Optional: Adjust image border to match the new theme */
+}
+
+    
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -57,19 +74,5 @@ footer {
     bottom: 0;
 }
 
-body {
-    background-color: black; /* Sets the background to black */
-    color: white; /* Changes all default text color to white */
-}
 
-p {
-    color: white; /* Ensures all paragraphs are white */
-}
-
-h1, h2 {
-    color: red; /* Keeps headings their original colors */
-}
-
-img {
-    border: 5px solid white; /* Optional: Adjust image border to match the new theme */
-}
+  
